@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
+}
+.NavBar{
+  display: flex;
+  background-color: #1a2747;
+  font-size: 2em;
+  justify-content: space-around;
+  padding:0.5em;
+  color:white;
+}
+
+.NavBar a{
+  text-decoration: none;
+  color:white;
+}
+
+.NavBar a:hover{
+  text-decoration: none;
+  color:#a64667;
+}
+
+.ImageContainer{
+  display: block;
+  width:50%;
+  height:70vh;
+  background-color: blue;
+  margin:auto;
+  border: 2px solid black;
+}
+
+.image{
+  width:100%;
+  height:100%;
+}
+
+.upload{
+  padding: 0.5em;
+  display: block;
+  width:30%;
+  margin:auto;
+}
+
+.result{
+  display: block;
+  font-size: 2em;
+  padding: 0.5em;
+  width: 45%;
+  margin:auto;
+}
+
+#classify_button{
+  background-color: #34a343;
+  padding:0.2em;
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#browse_button{
+  padding:0.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
